@@ -1,0 +1,195 @@
+.dailyTaskTopDiv_container{
+    width: 360px;
+    margin: auto;
+    background-color: rgb(3, 0, 26);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.dailyTaskTopDiv{
+    background-color: rgb(11, 0, 33);
+    width: 310px;
+    height: 80px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px rgb(0, 0, 150);
+}
+.dailyTaskTopDiv_left{
+    border:none;
+    padding-bottom: 20px;;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.dailyTaskTopDiv_right{
+    border: none;
+    width: 230px;
+    height: 60px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.dailyTaskTopDiv_rightTop,.dailyTaskTopDiv_rightButton{
+    border: none;
+    width: 230px;
+    height: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(197, 197, 197);
+    text-align: left;
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+.dailyTaskTopDiv_rightTop{
+    margin-top: 10px;
+}
+.dailyTaskHeader{
+    width: 140px;
+    height:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: rgb(197, 197, 197);
+    text-align: left;
+    padding-left: 8px;
+    text-transform: capitalize;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.dailyTaskWatchDiv{
+    background-color: none;
+    width: 320px;
+    height: 70px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgb(0, 0, 150);
+    padding: 10px;
+}
+.dailyTaskWatchText{
+    background-color:none;
+    border:none;
+    width: 210px;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: rgb(197, 197, 197);
+    text-align: left;
+    padding: 4px;
+    border-radius: 6px;
+}
+.dailyTaskWatchButton{
+    background-color: rgb(14, 0, 81);
+    width: 80px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: rgb(197, 197, 197);
+    padding: 4px;
+    text-align: center;
+    border-radius: 10px;
+}
+.dailyTaskinputDiv{
+    background-color: rgb(11, 0, 33);
+    width: 300px;
+    height: 40px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: rgb(0, 150, 33);
+    text-align: center;
+    position: relative;
+
+    padding: 10px;
+}
+.dailyTaskinput{
+    background-color: rgb(11, 0, 33);
+    border: 1px solid rgb(53, 53, 53);
+    border-radius: 5px;
+    color:rgb(187, 187, 187);
+    position: absolute;
+    padding-left:10px;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    display: block;
+}
+.dailyTaskinput::placeholder{
+    color: rgb(101, 101, 101);
+    padding-left:10px;
+}
+.dailyTaskinput:focus{
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 4px blue;
+}
+.dailyTasksubmitButton{
+    background-color: rgb(14, 0, 81);
+    width: 300px;
+    height: 40px;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: rgb(197, 197, 197);
+    text-align: center;
+    padding: 10px;
+}
+.dailyTaskFinishMissionButton{
+    background-color: rgb(14, 0, 81);
+    width: 300px;
+    height: 90px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: rgb(197, 197, 197);
+    text-align: center;
+    padding-top: 30px;
+    position: relative;
+    opacity: 0.5;
+}
+
+.dailyTaskFinishMissionButton_p{
+    background-image: linear-gradient(to right,rgba(255, 255, 255, 0.511),blue);
+    height: 100%;
+    width: 30px;
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    animation-name: like_box;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+    opacity: 0.4;
+    display: none;
+}

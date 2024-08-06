@@ -1,0 +1,256 @@
+/*realCoins_mainContainer_bobols*/
+.realCoins_mainContainer_bobolsBothBobols{
+    background-color: rgb(0, 0, 69);
+    border: none;
+    max-width: 310px;
+    height: 210px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.realCoins_mainContainer_bobolsExchange{
+    max-width: 70px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 8px;
+    color: rgb(255, 255, 255);
+}
+.realCoins_mainContainer_bobolsEachBobolDiv{
+    border: none;
+    max-width: 300px;
+    height: 110px;
+    margin: auto;
+    margin-top: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.realCoins_mainContainer_bobolsEachBobolContainer{
+    width: 100px;
+    height: 100px;
+}
+.realCoins_mainContainer_bobolsImg{
+    background-color: rgb(0, 0, 69);
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 50%;
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.realCoins_mainContainer_bobolsName{
+    background-color: rgb(0, 0, 32);
+    border: none;
+    width: 60px;
+    height: 20px;
+    margin: auto;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 4px;
+}
+/*End sub*/
+
+
+
+
+
+
+/*realCoins_mainContainer_x2*/
+.realCoins_mainContainer_x2TotalDoller{
+    max-width: 300px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 8px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+.realCoins_mainContainer_x2TopDiv{
+    background-color: rgb(0, 0, 22);
+    border: none;
+    max-width: 100%;
+    height: 20%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 5px;
+    overflow-y: scroll;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px rgb(0, 0, 95);
+    
+}
+
+.coinsMarket{
+    max-width: 160px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    margin: auto;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    text-align: center;
+}
+.realCoins_mainContainer_x2BottomDiv{
+    border: none;
+    max-width: 100%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow-y: scroll;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    
+}
+.realCoins_mainContainer_x2BottomContainer{
+    background-color: rgb(0, 0, 43);
+    border:none;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5px;
+    
+
+}
+.realCoins_mainContainer_x2BottomContainerLeft{
+    border:none;
+    width: 80%;
+    height: 140px;
+    position:relative;
+}
+.realCoins_mainContainer_x2BottomContainerright{
+    border: 1px solid rgba(0, 0, 0, 0.512);
+    width: 30%;
+    height: 140px;
+    position:relative;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.x2BottomContainerLeft_Img{
+    border: 1px solid rgba(0, 0, 0, 0.512);
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.x2BottomContainerLeft_Name{
+    border: none;
+    width: 80px;
+    height: 20px;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin: auto;
+    
+}
+.x2BottomContainerLeft_NoAmount{
+    border: 1px solid rgba(0, 0, 0, 0.512);
+    width: 100%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 4px;
+    padding-right: 4px;
+    align-items: center;
+    color: white;
+}
+.x2BottomContainerLeft_No{
+    border: 1px solid rgba(0, 0, 0, 0.512);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    padding-right: 2px;
+}
+.x2BottomContainerLeft_Amount{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    
+}
+
+.x2BottomContainerLeft_buy,.x2BottomContainerLeft_sell{
+    background-color: rgb(0, 74, 0);
+    border: none;
+    width: 45px;
+    height: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    position: absolute;
+    border-radius: 6px;
+    bottom: 7px;
+    right: 6px;
+}
+.x2BottomContainerLeft_sell{
+    background-color: rgb(158, 0, 0);
+}
+
+
+.x2BottomContainerright_stick{
+    border: none;
+    border-left: 1px solid red;
+    width: 0px;
+    height: 140px;
+    margin: auto;
+}
+.x2BottomContainerright_stickRead{
+    border: none;
+    background-color: red;
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    bottom: 20%;
+    
+}
+/*End sub*/
