@@ -1847,12 +1847,12 @@ setInterval(()=>{
 
             linkHTml+=`
             <div class="ReferralsClaim_Div">
-                <p class="ReferralsClaim_DivName">${localStorage.getItem(`Link_form${localStorage.getItem('Link_Count')-i}`)}</p>
+                <p class="ReferralsClaim_DivName">${localStorage.getItem(`Link_form${(localStorage.getItem('Link_Count')-i)-1}`)}</p>
                 <div class="ReferralsClaim_DivCoins">
                     <p class="ReferralsClaim_DivCoinsIcon"></p>
                     <p class="ReferralsClaim_DivCoinsAmount">+5,000</p>
                 </div>
-                <p class="ReferralsClaim_DivClaimButton DivClaimButton${localStorage.getItem('Link_Count')-i}" data-id="${localStorage.getItem('Link_Count')-i}">Claim</p>
+                <p class="ReferralsClaim_DivClaimButton DivClaimButton${(localStorage.getItem('Link_Count')-i)-1}" data-id="${(localStorage.getItem('Link_Count')-i)-1}">Claim</p>
             </div>`;
 
             sessionStorage.setItem('LinkArrayCount',i)
