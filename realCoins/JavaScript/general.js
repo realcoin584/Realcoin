@@ -1612,14 +1612,14 @@ boostBoosterContainer.forEach((e)=>{
             
             
 
-            if(dataDashed_Id==='+4'){
+            if(dataDashed_Id==='+2'){
+                localStorage.setItem('boostValue',2)
+            }else if(dataDashed_Id==='+3'){
+                localStorage.setItem('boostValue',3)
+            }else if(dataDashed_Id==='+4'){
                 localStorage.setItem('boostValue',4)
-            }else if(dataDashed_Id==='+8'){
-                localStorage.setItem('boostValue',8)
-            }else if(dataDashed_Id==='+10'){
-                localStorage.setItem('boostValue',10)
-            }else if(dataDashed_Id==='+20'){
-                localStorage.setItem('boostValue',20)
+            }else if(dataDashed_Id==='+5'){
+                localStorage.setItem('boostValue',5)
             }
 
 
@@ -1847,12 +1847,12 @@ setInterval(()=>{
 
             linkHTml+=`
             <div class="ReferralsClaim_Div">
-                <p class="ReferralsClaim_DivName">${localStorage.getItem(`Link_form${i}`)}</p>
+                <p class="ReferralsClaim_DivName">${localStorage.getItem(`Link_form${localStorage.getItem('Link_Count')-i}`)}</p>
                 <div class="ReferralsClaim_DivCoins">
                     <p class="ReferralsClaim_DivCoinsIcon"></p>
                     <p class="ReferralsClaim_DivCoinsAmount">+5,000</p>
                 </div>
-                <p class="ReferralsClaim_DivClaimButton DivClaimButton${i}" data-id="${i}">Claim</p>
+                <p class="ReferralsClaim_DivClaimButton DivClaimButton${localStorage.getItem('Link_Count')-i}" data-id="${localStorage.getItem('Link_Count')-i}">Claim</p>
             </div>`;
 
             sessionStorage.setItem('LinkArrayCount',i)
