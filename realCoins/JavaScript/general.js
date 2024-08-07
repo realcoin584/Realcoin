@@ -495,7 +495,7 @@ const displayByClick=document.querySelectorAll('.displayByClick');
 displayByClick.forEach((e)=>{
     e.addEventListener('click',()=>{
 
-        if(localStorage.getItem('coinsCount')<1000){
+        if(localStorage.getItem('coinsCount')<1200){
             let getItem=Number(localStorage.getItem('coinsCount'))||0;
             localStorage.setItem('coinsCount',getItem+Number(localStorage.getItem('boostValue')))
         }
