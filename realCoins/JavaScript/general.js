@@ -24,8 +24,6 @@ if(localStorage.getItem('displayCoins')===null){
     localStorage.setItem('coinsCount',0)
 }
 
-localStorage.setItem('displayCoins',0)
-    localStorage.setItem('coinsCount',0)
 
 
 
