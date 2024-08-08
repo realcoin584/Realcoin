@@ -1806,7 +1806,7 @@ if(localStorage.getItem('Link_Id')===null){
 
     localStorage.setItem('Link_Id',`${crypto.randomUUID()}`)
 }
-document.querySelector('.inviteLink_divBotton').innerText=`https://t.me/Realcoingames_bot?${localStorage.getItem('Link_Id')}`;
+document.querySelector('.inviteLink_divBotton').innerText=`https://realcoin584.github.io/realCoinsLink/realCoinLink/realCoinsLink.html?${localStorage.getItem('Link_Id')}`;
 
 
 
@@ -1815,7 +1815,7 @@ document.querySelector('.inviteLink_divBotton').innerText=`https://t.me/Realcoin
 document.querySelector('.inviteLink_divCopyButton').addEventListener('click',()=>{
     
 
-    navigator.clipboard.writeText(`https://t.me/Realcoingames_bot?${localStorage.getItem('Link_Id')}`)
+    navigator.clipboard.writeText(`https://realcoin584.github.io/realCoinsLink/realCoinLink/realCoinsLink.html?${localStorage.getItem('Link_Id')}`)
     document.querySelector('.copeid_Div').style.display='block';
     setTimeout(()=>{
     
