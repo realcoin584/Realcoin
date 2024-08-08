@@ -508,7 +508,7 @@ displayByClick.forEach((e)=>{
 
 document.querySelector('.claimButton').addEventListener('click',()=>{
     
-    if(Number(localStorage.getItem('coinsCount'))<=1000 && Number(localStorage.getItem('coinsCount'))!=0){
+    if(Number(localStorage.getItem('coinsCount'))<=1200 && Number(localStorage.getItem('coinsCount'))!=0){
         let displayCoins=Number(localStorage.getItem('displayCoins'))||0;
         localStorage.setItem('displayCoins',Number(localStorage.getItem('displayCoins'))+Number(localStorage.getItem('coinsCount')))
 
