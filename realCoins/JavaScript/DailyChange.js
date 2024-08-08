@@ -1,4 +1,4 @@
-let NewDate=31;
+let NewDate=8;
 let DailyPin='222222'
 let urlYutube1="https://www.youtube.com/@Realcoingames_bot";
 let urlYutube2="https://www.youtube.com/@Realcoingames_bot";
