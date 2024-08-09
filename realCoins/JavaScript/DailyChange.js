@@ -1,11 +1,11 @@
 let NewDate=9;
 let DailyPin='months'
-let urlYutube1="https://www.youtube.com/@Realcoingames_bot";
-let urlYutube2="https://www.youtube.com/@Realcoingames_bot";
-let dailyTaskLink="https://www.youtube.com/@Realcoingames_bot";
+let urlYutube1="https://youtu.be/mDHBja5NyTg?si=Hi9MeE-QODemjJwx";
+let urlYutube2="https://youtu.be/mDHBja5NyTg?si=Hi9MeE-QODemjJwx";
+let dailyTaskLink="https://youtu.be/mDHBja5NyTg?si=Hi9MeE-QODemjJwx";
 
-let youtube1_title="vitalik buterin's very unpopular movemove";
-let youtube2_title="vitalik buterin's very unpopular movemove";
+let youtube1_title="CartoonNetwork - The Powerpuff Girls (2016) - Season 1 - Episode 03 - The Stayover";
+let youtube2_title="CartoonNetwork - The Powerpuff Girls RealCoins - Season 1";
 
 
 
@@ -242,7 +242,7 @@ let dailyTaskinput=document.querySelector('.dailyTaskinput');
 document.querySelector('.dailyTasksubmitButton').addEventListener('click',()=>{
     
     
-    if(DailyPin===dailyTaskinput.value && localStorage.getItem("dailyReward") === "newDate"){
+    if(`${DailyPin}`.toLowercase()===`${dailyTaskinput.value}`.toLowercase() && localStorage.getItem("dailyReward") === "newDate"){
         
         document.querySelector('.dailyTaskinput').style.boxShadow='0px 0px 4px green';
         setTimeout(()=>{
