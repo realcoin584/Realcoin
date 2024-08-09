@@ -1,5 +1,5 @@
-let NewDate=8;
-let DailyPin='222222'
+let NewDate=9;
+let DailyPin='months'
 let urlYutube1="https://www.youtube.com/@Realcoingames_bot";
 let urlYutube2="https://www.youtube.com/@Realcoingames_bot";
 let dailyTaskLink="https://www.youtube.com/@Realcoingames_bot";
