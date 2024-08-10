@@ -451,7 +451,7 @@ setInterval(()=>{
 
 
     
-    if(localStorage.getItem('displayCoins') !=0){
+    if(Number(localStorage.getItem('displayCoins') != 0){
 
  
       let displayCoins=`${localStorage.getItem('displayCoins')}`;
