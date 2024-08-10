@@ -477,8 +477,7 @@ setInterval(()=>{
     document.querySelector('.realCoins_mainContainer_x2TotalDoller').innerHTML=`&#36 ${(Number(localStorage.getItem('displayCoins'))/80000).toFixed(5)}`;
     document.querySelector('.boostTotalBalance').innerHTML=`&#36 ${(Number(localStorage.getItem('displayCoins'))/80000).toFixed(5)}`;
     
-localStorage.setItem('displayCoins',100)
-document.querySelector('.displayCoinsAmount').innerHTML=localStorage.getItem('displayCoins');
+
 
 
 
