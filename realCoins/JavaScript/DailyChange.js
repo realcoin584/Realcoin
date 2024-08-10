@@ -242,7 +242,7 @@ let dailyTaskinput=document.querySelector('.dailyTaskinput');
 document.querySelector('.dailyTasksubmitButton').addEventListener('click',()=>{
     
     
-    if(`${DailyPin}`.toLowercase()===`${dailyTaskinput.value}`.toLowercase() && localStorage.getItem("dailyReward") === "newDate"){
+    if(DailyPin.toLocaleLowerCase()===dailyTaskinput.value.toLocaleLowerCase() && localStorage.getItem("dailyReward") === "newDate"){
         
         document.querySelector('.dailyTaskinput').style.boxShadow='0px 0px 4px green';
         setTimeout(()=>{
