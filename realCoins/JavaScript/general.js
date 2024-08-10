@@ -510,7 +510,7 @@ setInterval(()=>{
     }else{
 
         document.querySelector('.clickSign').style.display='block';
-        document.querySelector('.claimButton').style.backgroundColor='rgb(0, 0, 90@)';
+        document.querySelector('.claimButton').style.backgroundColor='rgb(0, 0, 90)';
     }
 
 },100)
