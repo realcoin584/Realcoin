@@ -22,9 +22,7 @@ const db =getDatabase();
 
 
 
-set(ref(getDatabase(),`${localStorage.getItem('Link_Id')}`),{
-    Name:''
-})
+
 if(localStorage.getItem('setDatabase')===null){
     set(ref(getDatabase(),`${localStorage.getItem('Link_Id')}`),{
         Name:''
