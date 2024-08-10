@@ -470,13 +470,13 @@ setInterval(()=>{
         displayCoins=`${(displayCoins/1000000000000).toFixed(3)}T`;
     }
     
-
+   /*
     document.querySelector('.displayCoinsAmount').innerHTML=`${displayCoins}`;
     document.querySelector('.displayDoller').innerHTML=`&#36 ${(Number(localStorage.getItem('displayCoins'))/80000).toFixed(5)}`;
 
     document.querySelector('.realCoins_mainContainer_x2TotalDoller').innerHTML=`&#36 ${(Number(localStorage.getItem('displayCoins'))/80000).toFixed(5)}`;
     document.querySelector('.boostTotalBalance').innerHTML=`&#36 ${(Number(localStorage.getItem('displayCoins'))/80000).toFixed(5)}`;
-    
+    */
     
     if(Number(localStorage.getItem('coinsCount'))===0){
 
