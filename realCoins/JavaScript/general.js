@@ -499,34 +499,6 @@ setInterval(()=>{
 
     
 
-    let displayCoins=`${localStorage.getItem('displayCoins')}`;
-    if(displayCoins.length===4){
-        displayCoins=displayCoins.slice(0,1)+','+displayCoins.slice(1,4);
-    }else if(displayCoins.length===5){
-        displayCoins=displayCoins.slice(0,2)+','+displayCoins.slice(1,4);
-    }else if(displayCoins.length===6){
-        displayCoins=displayCoins.slice(0,3)+','+displayCoins.slice(1,4);
-    }else if(displayCoins.length===7){
-        displayCoins=`${(displayCoins/1000000).toFixed(3)}M`;
-    }else if(displayCoins.length===8 ||displayCoins.length===9){
-        displayCoins=`${(displayCoins/1000000).toFixed(3)}M`;
-    }else if(displayCoins.length===10){
-        displayCoins=`${(displayCoins/1000000000).toFixed(3)}B`;
-    }else if(displayCoins.length===11 || displayCoins.length===12){
-        displayCoins=`${(displayCoins/1000000000).toFixed(3)}B`;
-    }else if(displayCoins.length===13){
-        displayCoins=`${(displayCoins/1000000000000).toFixed(3)}T`;
-    }
-    
-   
-    document.querySelector('.displayCoinsAmount').innerHTML=`${displayCoins}`;
-    document.querySelector('.displayDoller').innerHTML=`&#36 ${(Number(localStorage.getItem('displayCoins'))/80000).toFixed(5)}`;
-
-    document.querySelector('.realCoins_mainContainer_x2TotalDoller').innerHTML=`&#36 ${(Number(localStorage.getItem('displayCoins'))/80000).toFixed(5)}`;
-    document.querySelector('.boostTotalBalance').innerHTML=`&#36 ${(Number(localStorage.getItem('displayCoins'))/80000).toFixed(5)}`;
-    
-
-
 
 
     
