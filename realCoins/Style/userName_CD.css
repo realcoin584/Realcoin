@@ -5,6 +5,7 @@
     position: fixed;
     left: 0px;
     top: 0px;
+    display:none;
 }
 .userName_C{
     background-color: rgb(218, 218, 255);
