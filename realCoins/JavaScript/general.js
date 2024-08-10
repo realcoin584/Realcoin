@@ -470,7 +470,7 @@ setInterval(()=>{
         displayCoins=`${(displayCoins/1000000000000).toFixed(3)}T`;
     }
     
-   s
+   
     document.querySelector('.displayCoinsAmount').innerHTML=`${displayCoins}`;
     document.querySelector('.displayDoller').innerHTML=`&#36 ${(Number(localStorage.getItem('displayCoins'))/80000).toFixed(5)}`;
 
@@ -486,7 +486,7 @@ setInterval(()=>{
     }else{
 
         document.querySelector('.clickSign').style.display='block';
-        document.querySelector('.claimButton').style.backgroundColor='rgb(0, 0, 90)';
+        document.querySelector('.claimButton').style.backgroundColor='rgb(0, 0, 90@)';
     }
 
 },100)
