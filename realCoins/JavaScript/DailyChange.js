@@ -1,8 +1,8 @@
 let NewDate=11;
-let DailyPin='months';
+let DailyPin='yaslaw';
 let urlYutube1="https://youtu.be/mDHBja5NyTg?si=Hi9MeE-QODemjJwx";
 let urlYutube2="https://youtu.be/mDHBja5NyTg?si=Hi9MeE-QODemjJwx";
-let dailyTaskLink="https://youtu.be/mDHBja5NyTg?si=Hi9MeE-QODemjJwx";
+let dailyTaskLink="https://twitter.com/realcoin_bot/status/1822544280289681725?s=21";
 
 let youtube1_title="CartoonNetwork - The Powerpuff Girls (2016) - Season 1 - Episode 03 - The Stayover";
 let youtube2_title="CartoonNetwork - The Powerpuff Girls RealCoins - Season 1";
