@@ -451,7 +451,7 @@ setInterval(()=>{
 
 
     
-    if(`${localStorage.getItem('displayCoins')}` != '0'){
+    if(`${localStorage.getItem('displayCoins')}` != '0' || `${localStorage.getItem('displayCoins')}` != 'NaN'){
 
  
       let displayCoins=`${localStorage.getItem('displayCoins')}`;
