@@ -1,11 +1,11 @@
-let NewDate=12;
-let DailyPin='yaslaw';
-let urlYutube1="https://youtu.be/mDHBja5NyTg?si=Hi9MeE-QODemjJwx";
-let urlYutube2="https://youtu.be/mDHBja5NyTg?si=Hi9MeE-QODemjJwx";
-let dailyTaskLink="https://twitter.com/realcoin_bot/status/1822544280289681725?s=21";
+let NewDate=13;
+let DailyPin='RC_3400674';
+let urlYutube1="https://youtu.be/gYks_hv2k24?si=Tr8nGNenkSF7nhUJ";
+let urlYutube2="https://youtu.be/gYks_hv2k24?si=Tr8nGNenkSF7nhUJ";
+let dailyTaskLink="https://youtube.com/shorts/citNFzWyslI?si=ZJBT1QuEvjOK7YbX";
 
-let youtube1_title="CartoonNetwork - The Powerpuff Girls (2016) - Season 1 - Episode 03";
-let youtube2_title="CartoonNetwork - The Powerpuff Girls RealCoins - Season 1";
+let youtube1_title="The Equalizer - Earn Cryptocurrency with Ease and Equality";
+let youtube2_title="Introduction to Real coin";
 
 
 
