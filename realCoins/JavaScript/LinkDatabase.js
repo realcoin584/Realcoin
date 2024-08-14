@@ -23,12 +23,63 @@ const db =getDatabase();
 
 
 
-if(localStorage.getItem('setDatabase')===null){
-    set(ref(getDatabase(),`${localStorage.getItem('Link_Id')}`),{
-        Name:''
-    })
-    localStorage.setItem('setDatabase','')
-}
+let TotalNumberOfUser=[];
+onValue(ref(db,"TotalNumberOfUser"),(snapshot)=>{
+    TotalNumberOfUser.push(snapshot.val())
+})
+
+
+
+
+setInterval(()=>{
+    if(TotalNumberOfUser.length != 0 && localStorage.getItem('Link_Id')===null){
+        update(ref(getDatabase(),"TotalNumberOfUser"),{
+            Total:TotalNumberOfUser[0].Total+1
+        }).then(()=>{
+            localStorage.setItem('Link_Id',`cc4d09a8-bedc-${TotalNumberOfUser[0].Total}-6f83c812147e`)
+            localStorage.setItem('Mycode',`${TotalNumberOfUser[0].Total}`)
+            localStorage.setItem('Myaddress',`4a56934b-bf13-${TotalNumberOfUser[0].Total}-5a228498d5b6`)
+            
+            //Link_Id
+            set(ref(getDatabase(),`${localStorage.getItem('Link_Id')}`),{
+                Name:''
+            })
+
+            //Myaddress
+            set(ref(getDatabase(),`${localStorage.getItem('Myaddress')}`),{
+                TransactionAmount:'',
+                TransactionAmountCoins:'',
+                From:''
+            })
+            //Mycode
+            set(ref(getDatabase(),`${localStorage.getItem('Mycode')}`),{
+                TransactionAmount:'',
+                TransactionAmountCoins:'',
+                From:''
+            })
+
+            
+        })
+    }
+
+},3000)
+
+
+
+
+setInterval(()=>{
+    if(localStorage.getItem('Link_Id') != null){
+        document.querySelector('.inviteLink_divBotton').innerText=`https://realcoin584.github.io/realCoinsLink/realCoinLink/realCoinsLink.html?${localStorage.getItem('Link_Id')}`;
+    }
+},100)
+
+
+
+
+
+
+
+
 
 
 
