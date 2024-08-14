@@ -67,14 +67,14 @@ JoinOurLinkContainer.forEach((e)=>{
 
         if(dataDashed_Id==="yutube1" && localStorage.getItem("yutube1") === "newDate" && `${new Date().getDate()}`===`${NewDate}`){
             localStorage.setItem("yutube1","AlreadyClick")
-            localStorage.setItem('displayCoins',getItem+100000);
+            localStorage.setItem('displayCoins',getItem+1000);
 
             
             window.open(urlYutube1,"_blank").focus();
 
         }else if(dataDashed_Id==="yutube2" && localStorage.getItem("yutube2") === "newDate" && `${new Date().getDate()}`===`${NewDate}`){
             localStorage.setItem("yutube2","AlreadyClick")
-            localStorage.setItem('displayCoins',getItem+100000);
+            localStorage.setItem('displayCoins',getItem+1000);
             
             
             window.open(urlYutube2,"_blank").focus();
@@ -85,35 +85,35 @@ JoinOurLinkContainer.forEach((e)=>{
 
         }else if(dataDashed_Id==="telegram1" && localStorage.getItem("telegram1") === "newDate" && `${new Date().getDate()}`===`${NewDate}`){
             localStorage.setItem("telegram1","AlreadyClick")
-            localStorage.setItem('displayCoins',getItem+5000);
+            localStorage.setItem('displayCoins',getItem+500);
             
             let url="https://t.me/+S1yOOvjloYdlNzE8";
             window.open(url,"_blank").focus();
 
         }else if(dataDashed_Id==="telegram2" && localStorage.getItem("telegram2") === "newDate" && `${new Date().getDate()}`===`${NewDate}`){
             localStorage.setItem("telegram2","AlreadyClick")
-            localStorage.setItem('displayCoins',getItem+5000);
+            localStorage.setItem('displayCoins',getItem+500);
             
             let url="https://t.me/+_OFbXzfb5uVlMmY8";
             window.open(url,"_blank").focus();
 
         }else if(dataDashed_Id==="twiter" && localStorage.getItem("twiter") === "newDate" && `${new Date().getDate()}`===`${NewDate}`){
             localStorage.setItem("twiter","AlreadyClick")
-            localStorage.setItem('displayCoins',getItem+5000);
+            localStorage.setItem('displayCoins',getItem+500);
             
             let url="https://x.com/Realcoin_bot?t=Y7ObBl6gfKo2ZX8hVJ-d9A&s=09";
             window.open(url,"_blank").focus();
 
         }else if(dataDashed_Id==="instagram" && localStorage.getItem("instagram") === "newDate" && `${new Date().getDate()}`===`${NewDate}`){
             localStorage.setItem("instagram","AlreadyClick")
-            localStorage.setItem('displayCoins',getItem+5000);
+            localStorage.setItem('displayCoins',getItem+500);
             
             let url="https://www.instagram.com/realcoingame_bot?igsh=YWRzbjBqY3dyeHZq";
             window.open(url,"_blank").focus();
 
         }else if(dataDashed_Id==="tiktok" && localStorage.getItem("tiktok") === "newDate" && `${new Date().getDate()}`===`${NewDate}`){
             localStorage.setItem("tiktok","AlreadyClick")
-            localStorage.setItem('displayCoins',getItem+5000);
+            localStorage.setItem('displayCoins',getItem+500);
             
             
             
