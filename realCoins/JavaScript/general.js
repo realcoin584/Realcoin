@@ -1811,7 +1811,7 @@ setInterval(()=>{
 //toWallet
 document.querySelector('.toWallet').addEventListener('click',()=>{
 
-    document.querySelector('.chooseWalletContainerDiv').style.display='block';
+    //document.querySelector('.chooseWalletContainerDiv').style.display='block';
 
     document.querySelector('.displayMessage').style.display='block';
     document.querySelector('.displayMessage').innerText='coming soon!';
