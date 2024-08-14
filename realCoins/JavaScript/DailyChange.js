@@ -265,7 +265,7 @@ document.querySelector('.dailyTasksubmitButton').addEventListener('click',()=>{
 
 
 
-document.querySelector('.dailyTaskFinishMissionButton_p').addEventListener('click',()=>{
+document.querySelector('.dailyTaskFinishMissionButton').addEventListener('click',()=>{
 
     if(localStorage.getItem("dailyReward") === "AlreadyClick"){
         localStorage.setItem('dailyReward','confirmClick')
