@@ -1,4 +1,4 @@
-let NewDate=13;
+let NewDate=14;
 let DailyPin='RC_3400674';
 let urlYutube1="https://youtu.be/gYks_hv2k24?si=Tr8nGNenkSF7nhUJ";
 let urlYutube2="https://youtu.be/gYks_hv2k24?si=Tr8nGNenkSF7nhUJ";
@@ -270,7 +270,7 @@ document.querySelector('.dailyTaskFinishMissionButton_p').addEventListener('clic
     if(localStorage.getItem("dailyReward") === "AlreadyClick"){
         localStorage.setItem('dailyReward','confirmClick')
 
-        localStorage.setItem('displayCoins',Number(localStorage.getItem('displayCoins'))+400000)
+        localStorage.setItem('displayCoins',Number(localStorage.getItem('displayCoins'))+100000)
 
 
 
