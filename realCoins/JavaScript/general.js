@@ -48,7 +48,7 @@ if(screen.height<740){
 }else{
 
     //CHANGE THE SIZE OF realCoins_mainContainer MATCH
-    realCoins_mainContainer.style.height=`${screen.height-185}px`;
+    realCoins_mainContainer.style.height=`${screen.height-100}px`;
     realCoins_mainContainer_body.style.height=`${screen.height-200-100}px`;
     realCoins_mainContainer_home.style.height=`${screen.height-200-100}px`;
     realCoins_mainContainer_x2.style.height=`${screen.height-200-100}px`;
