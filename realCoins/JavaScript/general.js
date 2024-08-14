@@ -48,14 +48,14 @@ if(screen.height<740){
 }else{
 
     //CHANGE THE SIZE OF realCoins_mainContainer MATCH
-    realCoins_mainContainer.style.height=`${screen.height-157}px`;
-    realCoins_mainContainer_body.style.height=`${screen.height-200-157}px`;
-    realCoins_mainContainer_home.style.height=`${screen.height-200-157}px`;
-    realCoins_mainContainer_x2.style.height=`${screen.height-200-157}px`;
-    realCoins_mainContainer_boost.style.height=`${screen.height-200-157}px`;realCoins_mainContainer_earn.style.height=`${screen.height-200-157}px`;
-    realCoins_mainContainer_bobols.style.height=`${screen.height-200-157}px`;
-    realCoins_mainContainer_dailyCipher.style.height=`${screen.height-200-157}px`;
-    realCoins_mainContainer_ref.style.height=`${screen.height-200-157}px`;
+    realCoins_mainContainer.style.height=`${screen.height-165}px`;
+    realCoins_mainContainer_body.style.height=`${screen.height-200-165}px`;
+    realCoins_mainContainer_home.style.height=`${screen.height-200-165}px`;
+    realCoins_mainContainer_x2.style.height=`${screen.height-200-165}px`;
+    realCoins_mainContainer_boost.style.height=`${screen.height-200-165}px`;realCoins_mainContainer_earn.style.height=`${screen.height-200-165}px`;
+    realCoins_mainContainer_bobols.style.height=`${screen.height-200-165}px`;
+    realCoins_mainContainer_dailyCipher.style.height=`${screen.height-200-165}px`;
+    realCoins_mainContainer_ref.style.height=`${screen.height-200-165}px`;
 
     realCoins_mainContainer_x2TopDiv.style.height=`${(screen.height-200-90-28)/3}px`;
     realCoins_mainContainer_x2BottomDiv.style.height=`${((screen.height-200-95-20)-((screen.height-200-90-20)/3)-50)-15}px`;
@@ -146,14 +146,14 @@ setInterval(()=>{
         }else{
         
             //CHANGE THE SIZE OF realCoins_mainContainer MATCH
-            realCoins_mainContainer.style.height=`${screen.height-157}px`;
-            realCoins_mainContainer_body.style.height=`${screen.height-200-157}px`;
-            realCoins_mainContainer_home.style.height=`${screen.height-200-157}px`;
-            realCoins_mainContainer_x2.style.height=`${screen.height-200-157}px`;
-            realCoins_mainContainer_boost.style.height=`${screen.height-200-157}px`;realCoins_mainContainer_earn.style.height=`${screen.height-200-157}px`;
-            realCoins_mainContainer_bobols.style.height=`${screen.height-200-157}px`;
-            realCoins_mainContainer_dailyCipher.style.height=`${screen.height-200-157}px`;
-            realCoins_mainContainer_ref.style.height=`${screen.height-200-157}px`;
+            realCoins_mainContainer.style.height=`${screen.height-165}px`;
+            realCoins_mainContainer_body.style.height=`${screen.height-200-165}px`;
+            realCoins_mainContainer_home.style.height=`${screen.height-200-165}px`;
+            realCoins_mainContainer_x2.style.height=`${screen.height-200-165}px`;
+            realCoins_mainContainer_boost.style.height=`${screen.height-200-165}px`;realCoins_mainContainer_earn.style.height=`${screen.height-200-165}px`;
+            realCoins_mainContainer_bobols.style.height=`${screen.height-200-165}px`;
+            realCoins_mainContainer_dailyCipher.style.height=`${screen.height-200-165}px`;
+            realCoins_mainContainer_ref.style.height=`${screen.height-200-165}px`;
         
             realCoins_mainContainer_x2TopDiv.style.height=`${(screen.height-200-90-28)/3}px`;
             realCoins_mainContainer_x2BottomDiv.style.height=`${((screen.height-200-95-20)-((screen.height-200-90-20)/3)-50)-15}px`;
