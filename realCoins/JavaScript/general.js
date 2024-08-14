@@ -58,7 +58,7 @@ if(screen.height<740){
     realCoins_mainContainer_ref.style.height=`${screen.height-200-142}px`;
 
     realCoins_mainContainer_x2TopDiv.style.height=`${(screen.height-200-90-28)/3}px`;
-    realCoins_mainContainer_x2BottomDiv.style.height=`${((screen.height-200-95-20)-((screen.height-200-90-20)/3)-50)-35}px`;
+    realCoins_mainContainer_x2BottomDiv.style.height=`${((screen.height-200-95-20)-((screen.height-200-90-20)/3)-50)-70}px`;
 
 }
 
@@ -156,7 +156,7 @@ setInterval(()=>{
             realCoins_mainContainer_ref.style.height=`${screen.height-200-142}px`;
         
             realCoins_mainContainer_x2TopDiv.style.height=`${(screen.height-200-90-28)/3}px`;
-            realCoins_mainContainer_x2BottomDiv.style.height=`${((screen.height-200-95-20)-((screen.height-200-90-20)/3)-50)-35}px`;
+            realCoins_mainContainer_x2BottomDiv.style.height=`${((screen.height-200-95-20)-((screen.height-200-90-20)/3)-50)-70}px`;
         
         }
         
