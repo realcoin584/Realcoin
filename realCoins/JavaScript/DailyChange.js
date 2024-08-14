@@ -270,7 +270,7 @@ document.querySelector('.dailyTaskFinishMissionButton_p').addEventListener('clic
     if(localStorage.getItem("dailyReward") === "AlreadyClick"){
         localStorage.setItem('dailyReward','confirmClick')
 
-        localStorage.setItem('displayCoins',Number(localStorage.getItem('displayCoins'))+100000)
+        localStorage.setItem('displayCoins',Number(localStorage.getItem('displayCoins'))+2000)
 
 
 
