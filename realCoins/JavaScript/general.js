@@ -1,3 +1,18 @@
+
+//if all amount are equal to NAN
+setInterval(()=>{
+    let displayCoinsAmount=document.querySelector('.displayCoinsAmount');
+    if(displayCoinsAmount.innerText==='NAN'){
+        localStorage.setItem('displayCoins',1000)
+    }
+    
+},100)
+
+
+
+
+
+
 let realCoins_mainContainer=document.querySelector('.realCoins_mainContainer');
 let realCoins_mainContainer_body=document.querySelector('.realCoins_mainContainer_body');
 
