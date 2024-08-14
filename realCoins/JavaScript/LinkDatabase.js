@@ -32,7 +32,7 @@ onValue(ref(db,"TotalNumberOfUser"),(snapshot)=>{
 
 
 setInterval(()=>{
-    if(TotalNumberOfUser.length != 0 && localStorage.getItem('Link_Id')===null){
+    if(TotalNumberOfUser.length != 0 && localStorage.getItem('AddressId')===null){
         update(ref(getDatabase(),"TotalNumberOfUser"),{
             Total:TotalNumberOfUser[0].Total+1
         }).then(()=>{
@@ -58,7 +58,7 @@ setInterval(()=>{
                 From:''
             })
 
-            
+            localStorage.setItem('AddressId','')
         })
     }
 
