@@ -1,4 +1,4 @@
-let NewDate=14;
+let NewDate=15;
 let DailyPin='RC_3400674';
 let urlYutube1="https://youtu.be/gYks_hv2k24?si=Tr8nGNenkSF7nhUJ";
 let urlYutube2="https://youtu.be/gYks_hv2k24?si=Tr8nGNenkSF7nhUJ";
