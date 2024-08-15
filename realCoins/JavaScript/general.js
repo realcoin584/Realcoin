@@ -455,7 +455,7 @@ setInterval(()=>{
     if(`${localStorage.getItem('displayCoins')}` != '0'){
 
  
-      let displayCoins=`${localStorage.getItem('displayCoins')}`;
+      let displayCoins=`${Number(localStorage.getItem('displayCoins'))-(Number(localStorage.getItem('displayCoins'))%2)}`;
     if(displayCoins.length===4){
         displayCoins=displayCoins.slice(0,1)+','+displayCoins.slice(1,4);
     }else if(displayCoins.length===5){
